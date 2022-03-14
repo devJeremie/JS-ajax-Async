@@ -1,0 +1,83 @@
+/*-----------------Feu tricolore--------------------*/
+.feuDeCirculation{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.formCircle{
+    width: 30px;
+    height: 30px;
+    border: solid 2px black;
+    border-radius: 50%;
+    margin: 3px;
+}
+.redColor{
+    background-color: red;
+}
+.orangeColor{
+    background-color: orange;
+}
+.greenColor{
+    background-color: green;
+}
+
+/*-----------------Clignotant--------------------*/
+.cligno{
+    font-size: 20px;
+    font-weight: bold;
+}
+.colorCligno{
+    color: mediumvioletred;
+}
+
+/*-----------------Div affiché temporairement--------------------*/
+.bg{
+    width: 150px;
+    text-align: center;
+    background-color: olive;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    display: none;
+}
+.dBlock{
+    display: block;
+}
+
+/*-----------------Barre de progression--------------------*/
+#bgBar{
+    background-color: wheat;
+    border-radius: 10px;
+    border: solid 2px black;
+    width: 50%;
+}
+#progressBar{
+    height: 30px;
+    border-radius: 10px;
+    background-color: teal;
+    width: 0%;
+    /* animation-duration: 10s;
+    animation-name: glissement;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; */
+}
+/* @keyframes glissement {
+    from {
+      margin-right: 100%;
+    }
+    to {
+      margin-right: 0%;
+    }
+} */
+
+/*-----------------Arc en ciel--------------------*/
+.blue{
+    color: rgb(30, 124, 141);
+}
+.pink{
+    color: pink;
+}
+.violet{
+    color: rgb(168, 130, 238);
+}
